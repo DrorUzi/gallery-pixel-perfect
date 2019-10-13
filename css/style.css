@@ -378,8 +378,20 @@ header .logo {
   }
 }
 
+.first-panel h2 {
+  color: #4f4e4e;
+  line-height: 30px;
+  letter-spacing: 0.84px;
+}
+
+.first-panel p {
+  line-height: 20px;
+  font-feature-settings: latoregular;
+  letter-spacing: 0.48px;
+}
+
 .main-wrapper .first-panel {
-  width: 300px;
+  width: 290px;
   padding-right: 20px;
 }
 
@@ -409,7 +421,6 @@ header .logo {
   .main-wrapper .second-panel {
     width: 100%;
   }
-  
 }
 
 .main-pager {
@@ -497,7 +508,7 @@ footer .logo {
   .sun {
     grid-area: 3/1/4/3;
   }
-  .main-wrapper .second-panel{
+  .main-wrapper .second-panel {
     display: block;
   }
 }
